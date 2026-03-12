@@ -1,7 +1,6 @@
 # Fabric Defect Detection using Deep Learning
 
 This project detects defects in fabric images using a U-Net based deep learning model.
-
 The model learns to identify defective regions in textile images and highlights them automatically.
 
 Project Motivation
@@ -12,8 +11,9 @@ DAGM Surface Defect Dataset was used for training.
 
 Features
 - Image segmentation using U-Net
-- Detects and highlights fabric defects
-- Visual defect overlay on original image
+- Detects fabric defects
+<img width="1200" height="400" alt="Figure_1" src="https://github.com/user-attachments/assets/345b5ba1-8f4a-4770-a5a8-1ceefd46b619" />
+
 
 Tech Stack
 Python  
@@ -32,4 +32,5 @@ The model predicts a defect mask and highlights the defect region on the origina
 Future Improvements
 - Improve segmentation accuracy
 - Build a web interface for defect detection
+
 - Train on larger industrial datasets
